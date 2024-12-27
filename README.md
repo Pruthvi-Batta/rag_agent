@@ -1,10 +1,9 @@
-=========
 Rag Agent
 =========
 
 
 Environment Creation:
-=====================
+---------------------
 Note: 
     If conda is already installed(change the conda bin path: **CONDA_BIN**)
     If you want to change the environemt name(ENV_NAME), change it in the Makefile
