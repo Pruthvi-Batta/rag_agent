@@ -1,0 +1,11 @@
+hugging_face:
+  token: 
+  model: Qwen/Qwen2.5-Coder-0.5B-Instruct
+
+chromadb:
+  # available options: ['sentence', 'paragraph', 'page', 'max_words'] 
+  tokenise_mode: 'paragraph'
+  max_words: 100
+
+rag_constraints:
+  number_of_top_contexts: 3
