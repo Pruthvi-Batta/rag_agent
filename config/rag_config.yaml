@@ -1,6 +1,15 @@
 hugging_face:
+  # personal access token from hugging face
   token: 
+
+  # model name from hugging face
   model: Qwen/Qwen2.5-Coder-0.5B-Instruct
+
+  # model type, that defines the pipeline based on the model
+  task_type: "text-generation"
+  
+  # -1 for CPU, 0 or higher for GPU
+  device: -1
 
 chromadb:
   # available options: ['sentence', 'paragraph', 'page', 'max_words'] 
@@ -8,4 +17,4 @@ chromadb:
   max_words: 100
 
 rag_constraints:
-  number_of_top_contexts: 3
+  number_of_top_contexts: 5

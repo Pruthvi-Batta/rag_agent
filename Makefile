@@ -43,3 +43,8 @@ activate-env:
 .PHONY: setup-env
 setup-env: create-env activate-env
 	@echo "Setup completed. Use the command above to activate your environment."
+
+# Activate the Conda environment
+.PHONY: run
+run:
+	cd src && streamlit run UI_screen.py

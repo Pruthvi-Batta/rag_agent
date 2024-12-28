@@ -66,7 +66,7 @@ class ChromaDBHandler:
             raise ValueError("No collection loaded. Please load or create a collection first.")
 
         results = self.collection.query(
-            query_texts=[query_text],
+            query_texts=query_text,
             n_results=n,
         )
         return results
