@@ -170,5 +170,3 @@ This solution leverages:
 For questions or contributions, feel free to reach out or submit an issue on our repository.
 
 ---
-
-This enhanced README provides clear formatting, detailed explanations, and user-friendly instructions to make your solution accessible to others!
